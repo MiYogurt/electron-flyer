@@ -9,6 +9,7 @@ Electron 是由 Github 开发，用 HTML，CSS 和 JavaScript 来构建跨平台
 在 2013 年，Electron 最初的时候是属于 Github 开源代码编辑器 Atom 的一部分，在 2014 春季这两个项目相继开源。
 
 **历史里程碑如下**
+
 | 时间 | 里程碑 |
 |---|---|
 | 2013 年 4 月 | Atom Shell 项目启动 。|
@@ -79,21 +80,25 @@ Electron 可以让 Web 应用程序运行在原生系统中，尽管在一些性
 #### 通知栏
 
 将 Electron 应用，通过定位，修改成为通知栏小程序。
+
 ![通知栏](./img/tray.gif)
 
 #### 下载
 
 通过 Canvas 实现下载的进度条
+
 ![下载](./img/download_story.gif)
 
 #### 播放列表
 
  载入本地音频文件，并整理成播放列表
+
 ![播放列表](./img/play.gif)
 
 #### 可视化
 
 最后将播放的音频，可视化到界面上去。
+
 ![可视化](./img/end.gif)
 
 [下载体验连接](https://github.com/MiYogurt/electron-svelte-template/tree/package)，请仔细阅读使用说明。
