@@ -1,6 +1,8 @@
 module.exports = {
   title: '破晓：黑夜之中的 Electron 飞行指南',
   description: '🎨 Electron 没那么难',
+  base: '/electron-flyer/',
+  dest: "docs",
   theme: 'api',
   themeConfig: {
     sidebar: {

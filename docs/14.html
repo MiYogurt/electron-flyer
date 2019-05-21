@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>应用商店 | 破晓：黑夜之中的 Electron 飞行指南</title>
+    <meta name="description" content="🎨 Electron 没那么难">
+    
+    
+    <link rel="preload" href="/electron-flyer/assets/css/0.styles.3d6eb61a.css" as="style"><link rel="preload" href="/electron-flyer/assets/js/app.321478e2.js" as="script"><link rel="preload" href="/electron-flyer/assets/js/18.d91d10ee.js" as="script"><link rel="prefetch" href="/electron-flyer/assets/js/10.d6a7e726.js"><link rel="prefetch" href="/electron-flyer/assets/js/11.887eb323.js"><link rel="prefetch" href="/electron-flyer/assets/js/12.91b28bd0.js"><link rel="prefetch" href="/electron-flyer/assets/js/13.2a080c63.js"><link rel="prefetch" href="/electron-flyer/assets/js/14.e6db4937.js"><link rel="prefetch" href="/electron-flyer/assets/js/15.4888b394.js"><link rel="prefetch" href="/electron-flyer/assets/js/16.6209dfc4.js"><link rel="prefetch" href="/electron-flyer/assets/js/17.4dabdbda.js"><link rel="prefetch" href="/electron-flyer/assets/js/19.2288f168.js"><link rel="prefetch" href="/electron-flyer/assets/js/2.6cf72073.js"><link rel="prefetch" href="/electron-flyer/assets/js/20.1d66ae28.js"><link rel="prefetch" href="/electron-flyer/assets/js/21.1073c24e.js"><link rel="prefetch" href="/electron-flyer/assets/js/22.9864bcb1.js"><link rel="prefetch" href="/electron-flyer/assets/js/23.0099ea93.js"><link rel="prefetch" href="/electron-flyer/assets/js/24.2924e65e.js"><link rel="prefetch" href="/electron-flyer/assets/js/25.9ffdaddc.js"><link rel="prefetch" href="/electron-flyer/assets/js/26.549bcbd0.js"><link rel="prefetch" href="/electron-flyer/assets/js/3.7de79766.js"><link rel="prefetch" href="/electron-flyer/assets/js/4.e4c889ba.js"><link rel="prefetch" href="/electron-flyer/assets/js/5.968ec6b8.js"><link rel="prefetch" href="/electron-flyer/assets/js/6.0f1acbba.js"><link rel="prefetch" href="/electron-flyer/assets/js/7.08f680e1.js"><link rel="prefetch" href="/electron-flyer/assets/js/8.01be9bf3.js"><link rel="prefetch" href="/electron-flyer/assets/js/9.b7ab19cb.js">
+    <link rel="stylesheet" href="/electron-flyer/assets/css/0.styles.3d6eb61a.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme__container sidebar-open"><div class="row"><div class="col-md-2"><div class="sidebar"><div class="group"><div class="group__title">章节内容</div> <div class="group__body"><!---->  <div name="1.html" class="group__category category"><div class="category__label"><a href="/electron-flyer/1.html">初识 Electron</a></div> </div><div name="2.html" class="group__category category"><div class="category__label"><a href="/electron-flyer/2.html">了解 Electron 开发环境</a></div> </div><div name="3.html" class="group__category category"><div class="category__label"><a href="/electron-flyer/3.html">封装（一）</a></div> </div><div name="4.html" class="group__category category"><div class="category__label"><a href="/electron-flyer/4.html">Typescript</a></div> </div><div name="5.html" class="group__category category"><div class="category__label"><a href="/electron-flyer/5.html">获取小说内容命令行程序版（上）</a></div> </div><div name="6.html" class="group__category category"><div class="category__label"><a href="/electron-flyer/6.html">获取小说内容命令行程序版（中）</a></div> </div><div name="7.html" class="group__category category"><div class="category__label"><a href="/electron-flyer/7.html">获取小说内容命令行程序版（下）</a></div> </div><div name="8.html" class="group__category category"><div class="category__label"><a href="/electron-flyer/8.html">嵌入到应用中</a></div> </div><div name="9.html" class="group__category category"><div class="category__label"><a href="/electron-flyer/9.html">插件</a></div> </div><div name="10.html" class="group__category category"><div class="category__label"><a href="/electron-flyer/10.html">文字转语音</a></div> </div><div name="11.html" class="group__category category"><div class="category__label"><a href="/electron-flyer/11.html">设置与信号中断</a></div> </div><div name="12.html" class="group__category category"><div class="category__label"><a href="/electron-flyer/12.html">插件商店</a></div> </div><div name="13.html" class="group__category category"><div class="category__label"><a href="/electron-flyer/13.html">下载与删除（上）</a></div> </div><div name="14.html" class="group__category category"><div class="category__label"><a href="/electron-flyer/14.html" class="router-link-exact-active router-link-active">下载与删除（下）</a></div> </div><div name="15.html" class="group__category category"><div class="category__label"><a href="/electron-flyer/15.html">通知栏程序</a></div> </div><div name="16.html" class="group__category category"><div class="category__label"><a href="/electron-flyer/16.html">播放功能</a></div> </div><div name="17.html" class="group__category category"><div class="category__label"><a href="/electron-flyer/17.html">美化</a></div> </div><div name="18.html" class="group__category category"><div class="category__label"><a href="/electron-flyer/18.html">数据可视化（上）</a></div> </div><div name="19.html" class="group__category category"><div class="category__label"><a href="/electron-flyer/19.html">数据可视化（中）</a></div> </div><div name="20.html" class="group__category category"><div class="category__label"><a href="/electron-flyer/20.html">数据可视化（下）</a></div> </div><div name="21.html" class="group__category category"><div class="category__label"><a href="/electron-flyer/21.html">嵌入到应用中</a></div> </div><div name="22.html" class="group__category category"><div class="category__label"><a href="/electron-flyer/22.html">打包</a></div> </div></div></div></div></div> <div class="col-md-10"><div class="page__container"><div class="content custom"><h1 id="应用商店"><a href="#应用商店" aria-hidden="true" class="header-anchor">#</a> 应用商店</h1> <p>我对这个文件做了一个小小的重构，首先添加结构。这里我修改了存储结构，添加了一个 <code>showname</code>，这样比显示 <code>filename</code> 更好看一些。</p> <div class="language-html extra-class"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Back</span><span class="token punctuation">/&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>wrap<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h2</span><span class="token punctuation">&gt;</span></span>插件列表<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h2</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>d-btn<span class="token punctuation">&quot;</span></span> <span class="token attr-name"><span class="token namespace">on:</span>click</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>refresh()<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>刷新<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span> <span class="token attr-name"><span class="token namespace">ref:</span>list</span><span class="token punctuation">&gt;</span></span>
+        {#each plugins as plugin,index}
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name"><span class="token namespace">in:</span>fade</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>plugin<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>title<span class="token punctuation">&quot;</span></span> <span class="token attr-name">target</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>_blank<span class="token punctuation">&quot;</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span>{plugin.repository}</span> <span class="token attr-name">title</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>点我跳转到仓库页<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>{plugin.showname}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>info {infoIndex == index? '': 'hidden'}<span class="token punctuation">&quot;</span></span> <span class="token attr-name"><span class="token namespace">on:</span>click</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>showInfo(index)<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+                {@html marked(plugin.description || '')}
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>control<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+                {plugin.author}
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>right<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+                {#if plugin.downloaded }
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>d-btn del<span class="token punctuation">&quot;</span></span> <span class="token attr-name"><span class="token namespace">on:</span>click</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>del(plugin.filename)<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+                    {#if inWorking(workingFilename, plugin.filename)}
+                        ···
+                    {:else}
+                        删除
+                    {/if}
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+                {:else}
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>d-btn green<span class="token punctuation">&quot;</span></span> <span class="token attr-name"><span class="token namespace">on:</span>click</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>download(plugin.filename, plugin.url)<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+                    {#if inWorking(workingFilename, plugin.filename)}
+                        ···
+                    {:else}
+                        下载
+                    {/if}
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+                {/if}
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+        {/each}
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><h2 id="导入依赖与样式"><a href="#导入依赖与样式" aria-hidden="true" class="header-anchor">#</a> 导入依赖与样式</h2> <p>svelte 包含一些额外的组件，从里面我们导入一些动画和辅助方法（数组推入，删除、补间动画等等）。</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> ipcRenderer <span class="token keyword">as</span> ipc<span class="token punctuation">,</span> shell <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'electron'</span>
+<span class="token keyword">import</span> marked <span class="token keyword">from</span> <span class="token string">'marked'</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> fade <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'svelte-transitions'</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> push<span class="token punctuation">,</span> splice <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'svelte-extras'</span>
+</code></pre></div><h2 id="添加-helper"><a href="#添加-helper" aria-hidden="true" class="header-anchor">#</a> 添加 helper</h2> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">function</span> <span class="token function">addDownloaed</span><span class="token punctuation">(</span><span class="token parameter">plugins<span class="token punctuation">,</span> local_plugins</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token comment">// 判断下载过的插件</span>
+  <span class="token keyword">return</span> plugins<span class="token punctuation">.</span><span class="token function">map</span><span class="token punctuation">(</span><span class="token parameter">plugin</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    plugin<span class="token punctuation">.</span>downloaded <span class="token operator">=</span>
+      local_plugins<span class="token punctuation">.</span><span class="token function">findIndex</span><span class="token punctuation">(</span>
+        <span class="token parameter">local_plugin</span> <span class="token operator">=&gt;</span> local_plugin <span class="token operator">==</span> plugin<span class="token punctuation">.</span>filename
+      <span class="token punctuation">)</span> <span class="token operator">&gt;=</span> <span class="token number">0</span>
+    <span class="token keyword">return</span> plugin
+  <span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">function</span> <span class="token function">inWorking</span><span class="token punctuation">(</span><span class="token parameter">workingFilename<span class="token punctuation">,</span> filename</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> workingFilename<span class="token punctuation">.</span><span class="token function">indexOf</span><span class="token punctuation">(</span>filename<span class="token punctuation">)</span> <span class="token operator">&gt;=</span> <span class="token number">0</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="配置项"><a href="#配置项" aria-hidden="true" class="header-anchor">#</a>  配置项</h2> <p><code>infoIndex</code> 用来控制详情的展开项，<code>workingFilename</code> 代表着正在进行操作的文件，对于发送过一次，我们必须进行一下锁定，要不然用户点击太多次容易忙不过来。</p> <p><code>destroy</code> 的时候一定要移除监听，要不然会造成内存泄露。</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+  <span class="token function">data</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token punctuation">{</span>
+      local_plugins<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token comment">// 本地插件</span>
+      all_plugins<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token comment">// 所有插件</span>
+      infoIndex<span class="token punctuation">:</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token comment">// 展开详情</span>
+      workingFilename<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token comment">// 操作中文件</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  components<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    Back<span class="token punctuation">:</span> <span class="token string">'../components/Back.svelte'</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  helpers<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    marked<span class="token punctuation">,</span> <span class="token comment">// markdown 处理</span>
+    inWorking <span class="token comment">// 是否处理中</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  transitions<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    fade
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  computed<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    <span class="token function-variable function">plugins</span><span class="token punctuation">:</span> <span class="token punctuation">(</span><span class="token parameter"><span class="token punctuation">{</span> all_plugins<span class="token punctuation">,</span> local_plugins <span class="token punctuation">}</span></span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span>
+      <span class="token function">addDownloaed</span><span class="token punctuation">(</span>all_plugins<span class="token punctuation">,</span> local_plugins<span class="token punctuation">)</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  methods<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    push<span class="token punctuation">,</span>
+    splice<span class="token punctuation">,</span>
+    <span class="token function">showInfo</span><span class="token punctuation">(</span><span class="token parameter">index</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token comment">// 显示某一个插件介绍</span>
+      <span class="token keyword">const</span> oldIndex <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span>infoIndex
+      <span class="token keyword">if</span> <span class="token punctuation">(</span>oldIndex <span class="token operator">==</span> index<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">set</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+          infoIndex<span class="token punctuation">:</span> <span class="token operator">-</span><span class="token number">1</span>
+        <span class="token punctuation">}</span><span class="token punctuation">)</span>
+      <span class="token punctuation">}</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">set</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+        infoIndex<span class="token punctuation">:</span> index
+      <span class="token punctuation">}</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token function">refresh</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token comment">// 刷新</span>
+      ipc<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span><span class="token string">'reload_local_plugins'</span><span class="token punctuation">)</span>
+      ipc<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span><span class="token string">'reload_all_plugins'</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token function">download</span><span class="token punctuation">(</span><span class="token parameter">filename<span class="token punctuation">,</span> url</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token comment">// 下载插件</span>
+      <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token function">inWorking</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span>workingFilename<span class="token punctuation">,</span> filename<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span>
+      <span class="token punctuation">}</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span><span class="token string">'workingFilename'</span><span class="token punctuation">,</span> filename<span class="token punctuation">)</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span>store<span class="token punctuation">.</span><span class="token function">setMsg</span><span class="token punctuation">(</span><span class="token string">'info'</span><span class="token punctuation">,</span> <span class="token template-string"><span class="token string">`下载插件中`</span></span><span class="token punctuation">)</span>
+      ipc<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span><span class="token string">'download_plugin'</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+        filename<span class="token punctuation">,</span>
+        url
+      <span class="token punctuation">}</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token function">del</span><span class="token punctuation">(</span><span class="token parameter">filename</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token comment">// 删除插件</span>
+      <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token function">inWorking</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span>workingFilename<span class="token punctuation">,</span> filename<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span>
+      <span class="token punctuation">}</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span><span class="token string">'workingFilename'</span><span class="token punctuation">,</span> filename<span class="token punctuation">)</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span>store<span class="token punctuation">.</span><span class="token function">setMsg</span><span class="token punctuation">(</span><span class="token string">'info'</span><span class="token punctuation">,</span> <span class="token template-string"><span class="token string">`删除插件中`</span></span><span class="token punctuation">)</span>
+      ipc<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span><span class="token string">'delete_plugin'</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+        filename
+      <span class="token punctuation">}</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token function">all_plugins</span><span class="token punctuation">(</span><span class="token parameter">event<span class="token punctuation">,</span> all_plugins</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">set</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+        all_plugins
+      <span class="token punctuation">}</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token function">local_plugins</span><span class="token punctuation">(</span><span class="token parameter">event<span class="token punctuation">,</span> local_plugins</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">set</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+        local_plugins
+      <span class="token punctuation">}</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token function">download_plugin_success</span><span class="token punctuation">(</span><span class="token parameter">event<span class="token punctuation">,</span> filename</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token comment">// 下载成功</span>
+      <span class="token keyword">const</span> filenames <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span>workingFilename <span class="token operator">||</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+      <span class="token keyword">let</span> index <span class="token operator">=</span> filenames<span class="token punctuation">.</span><span class="token function">indexOf</span><span class="token punctuation">(</span>filename<span class="token punctuation">)</span>
+      <span class="token keyword">if</span> <span class="token punctuation">(</span>index <span class="token operator">&gt;=</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">splice</span><span class="token punctuation">(</span><span class="token string">'workingFilename'</span><span class="token punctuation">,</span> index<span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">)</span>
+      <span class="token punctuation">}</span>
+      <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span>workingFilename <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token keyword">this</span><span class="token punctuation">.</span>store<span class="token punctuation">.</span><span class="token function">success</span><span class="token punctuation">(</span><span class="token string">'下载完成'</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token function">delete_plugin_success</span><span class="token punctuation">(</span><span class="token parameter">event<span class="token punctuation">,</span> filename</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token comment">// 删除成功</span>
+      <span class="token keyword">const</span> filenames <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span>workingFilename <span class="token operator">||</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+      <span class="token keyword">let</span> index <span class="token operator">=</span> filenames<span class="token punctuation">.</span><span class="token function">indexOf</span><span class="token punctuation">(</span>filename<span class="token punctuation">)</span>
+      <span class="token keyword">if</span> <span class="token punctuation">(</span>index <span class="token operator">&gt;=</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">splice</span><span class="token punctuation">(</span><span class="token string">'workingFilename'</span><span class="token punctuation">,</span> index<span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">)</span>
+      <span class="token punctuation">}</span>
+      <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span>workingFilename <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token keyword">this</span><span class="token punctuation">.</span>store<span class="token punctuation">.</span><span class="token function">success</span><span class="token punctuation">(</span><span class="token string">'删除完成'</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token function">ondestroy</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">// 清理监听</span>
+    ipc<span class="token punctuation">.</span><span class="token function">removeListener</span><span class="token punctuation">(</span><span class="token string">'all_plugins'</span><span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">all_plugins</span><span class="token punctuation">.</span><span class="token function">bind</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+    ipc<span class="token punctuation">.</span><span class="token function">removeListener</span><span class="token punctuation">(</span><span class="token string">'local_plugins'</span><span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">local_plugins</span><span class="token punctuation">.</span><span class="token function">bind</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+    ipc<span class="token punctuation">.</span><span class="token function">removeListener</span><span class="token punctuation">(</span>
+      <span class="token string">'download_plugin_success'</span><span class="token punctuation">,</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">download_plugin_success</span><span class="token punctuation">.</span><span class="token function">bind</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">)</span>
+    <span class="token punctuation">)</span>
+    ipc<span class="token punctuation">.</span><span class="token function">removeListener</span><span class="token punctuation">(</span>
+      <span class="token string">'delete_plugin_success'</span><span class="token punctuation">,</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">delete_plugin_success</span><span class="token punctuation">.</span><span class="token function">bind</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">)</span>
+    <span class="token punctuation">)</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token function">oncreate</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">// 添加监听</span>
+    ipc<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span><span class="token string">'get_all_plugins'</span><span class="token punctuation">)</span>
+    ipc<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span><span class="token string">'get_local_plugins'</span><span class="token punctuation">)</span>
+
+    ipc<span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">'all_plugins'</span><span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">all_plugins</span><span class="token punctuation">.</span><span class="token function">bind</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+    ipc<span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">'local_plugins'</span><span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">local_plugins</span><span class="token punctuation">.</span><span class="token function">bind</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+    ipc<span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">'download_plugin_success'</span><span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">download_plugin_success</span><span class="token punctuation">.</span><span class="token function">bind</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+    ipc<span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">'delete_plugin_success'</span><span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">delete_plugin_success</span><span class="token punctuation">.</span><span class="token function">bind</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+    <span class="token keyword">this</span><span class="token punctuation">.</span>refs<span class="token punctuation">.</span>list<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span>
+      <span class="token comment">// 处理点击事件，外部浏览器打开</span>
+      <span class="token string">'click'</span><span class="token punctuation">,</span>
+      <span class="token parameter">e</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>e<span class="token punctuation">.</span>target<span class="token punctuation">.</span>tagName<span class="token punctuation">.</span><span class="token function">toLowerCase</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token string">'a'</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+          e<span class="token punctuation">.</span><span class="token function">preventDefault</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+          shell<span class="token punctuation">.</span><span class="token function">openExternal</span><span class="token punctuation">(</span>e<span class="token punctuation">.</span>target<span class="token punctuation">.</span>href<span class="token punctuation">)</span>
+        <span class="token punctuation">}</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token boolean">true</span>
+    <span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="样式"><a href="#样式" aria-hidden="true" class="header-anchor">#</a> 样式</h2> <div class="language-html extra-class"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span><span class="token punctuation">&gt;</span></span><span class="token style"><span class="token language-css">
+    <span class="token selector">h2</span> <span class="token punctuation">{</span>
+        <span class="token property">color</span><span class="token punctuation">:</span> #fff<span class="token punctuation">;</span>
+        <span class="token property">font-weight</span><span class="token punctuation">:</span> 600<span class="token punctuation">;</span>
+        <span class="token property">padding</span><span class="token punctuation">:</span> 1rem .5rem<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token selector">.wrap</span> <span class="token punctuation">{</span>
+        <span class="token property">height</span><span class="token punctuation">:</span> 100vh<span class="token punctuation">;</span>
+        <span class="token property">background</span><span class="token punctuation">:</span> #303238<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token selector">h2~button</span> <span class="token punctuation">{</span>
+        <span class="token property">margin-left</span><span class="token punctuation">:</span> .5rem<span class="token punctuation">;</span>
+        <span class="token property">margin-bottom</span><span class="token punctuation">:</span> 1rem<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token selector">ul</span> <span class="token punctuation">{</span>
+        <span class="token property">list-style</span><span class="token punctuation">:</span> none<span class="token punctuation">;</span>
+        <span class="token property">margin</span><span class="token punctuation">:</span> .5rem
+    <span class="token punctuation">}</span>
+
+    <span class="token selector">.plugin</span> <span class="token punctuation">{</span>
+        <span class="token property">padding</span><span class="token punctuation">:</span> .5rem<span class="token punctuation">;</span>
+        <span class="token property">background</span><span class="token punctuation">:</span> #383A41<span class="token punctuation">;</span>
+        <span class="token property">border-radius</span><span class="token punctuation">:</span> .2rem<span class="token punctuation">;</span>
+        <span class="token property">margin</span><span class="token punctuation">:</span> .5rem 0<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token selector">.title</span> <span class="token punctuation">{</span>
+        <span class="token property">color</span><span class="token punctuation">:</span> #fff<span class="token punctuation">;</span>
+        <span class="token property">text-decoration</span><span class="token punctuation">:</span> none<span class="token punctuation">;</span>
+        <span class="token property">font-size</span><span class="token punctuation">:</span> 20px<span class="token punctuation">;</span>
+        <span class="token property">outline</span><span class="token punctuation">:</span> none<span class="token punctuation">;</span>
+        <span class="token property">font-weight</span><span class="token punctuation">:</span> 900<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token selector">.info</span> <span class="token punctuation">{</span>
+        <span class="token property">color</span><span class="token punctuation">:</span> #fff<span class="token punctuation">;</span>
+        <span class="token property">font-size</span><span class="token punctuation">:</span> .89rem<span class="token punctuation">;</span>
+        <span class="token property">margin</span><span class="token punctuation">:</span> .3rem 0<span class="token punctuation">;</span>
+        <span class="token property">cursor</span><span class="token punctuation">:</span> default<span class="token punctuation">;</span>
+        <span class="token property">font-weight</span><span class="token punctuation">:</span> 300<span class="token punctuation">;</span>
+        <span class="token property">transition</span><span class="token punctuation">:</span> all .2s<span class="token punctuation">;</span>
+        <span class="token property">max-width</span><span class="token punctuation">:</span> 100%<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token selector">.info :global(a)</span> <span class="token punctuation">{</span>
+        <span class="token property">text-decoration</span><span class="token punctuation">:</span> none<span class="token punctuation">;</span>
+        <span class="token property">color</span><span class="token punctuation">:</span> #fff<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token selector">.info :global(a):hover</span> <span class="token punctuation">{</span>
+        <span class="token property">background</span><span class="token punctuation">:</span> #fff<span class="token punctuation">;</span>
+        <span class="token property">color</span><span class="token punctuation">:</span> black<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token selector">.info.hidden</span> <span class="token punctuation">{</span>
+        <span class="token property">white-space</span><span class="token punctuation">:</span> nowrap<span class="token punctuation">;</span>
+        <span class="token property">text-overflow</span><span class="token punctuation">:</span> ellipsis<span class="token punctuation">;</span>
+        <span class="token property">overflow</span><span class="token punctuation">:</span> hidden<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token selector">.control</span> <span class="token punctuation">{</span>
+        <span class="token property">font-size</span><span class="token punctuation">:</span> .8rem<span class="token punctuation">;</span>
+        <span class="token property">color</span><span class="token punctuation">:</span> #fff<span class="token punctuation">;</span>
+        <span class="token property">display</span><span class="token punctuation">:</span> flex<span class="token punctuation">;</span>
+        <span class="token property">align-items</span><span class="token punctuation">:</span> center<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token selector">.right</span> <span class="token punctuation">{</span>
+        <span class="token property">margin-left</span><span class="token punctuation">:</span> auto<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token selector">.d-btn</span> <span class="token punctuation">{</span>
+        <span class="token property">padding</span><span class="token punctuation">:</span> .3rem 1rem<span class="token punctuation">;</span>
+        <span class="token property">color</span><span class="token punctuation">:</span> #fff<span class="token punctuation">;</span>
+        <span class="token property">background</span><span class="token punctuation">:</span> #54B3FF<span class="token punctuation">;</span>
+        <span class="token property">border</span><span class="token punctuation">:</span> none<span class="token punctuation">;</span>
+        <span class="token property">outline</span><span class="token punctuation">:</span> none<span class="token punctuation">;</span>
+        <span class="token property">cursor</span><span class="token punctuation">:</span> pointer<span class="token punctuation">;</span>
+        <span class="token property">border-radius</span><span class="token punctuation">:</span> 2px<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token selector">.del</span> <span class="token punctuation">{</span>
+        <span class="token property">background</span><span class="token punctuation">:</span> transparent<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token selector">.green</span> <span class="token punctuation">{</span>
+        <span class="token property">background</span><span class="token punctuation">:</span> #4BCB7C<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token selector">.solid</span> <span class="token punctuation">{</span>
+        <span class="token property">border</span><span class="token punctuation">:</span> 1px solid #fff
+    <span class="token punctuation">}</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><h2 id="添加主界面"><a href="#添加主界面" aria-hidden="true" class="header-anchor">#</a> 添加主界面</h2> <p>新建 <code>pages/Main.svelte</code> 页面，别忘记在 store 里面添加路由映射, 并且默认显示该页面。</p> <div class="language-html extra-class"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>wrap<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Link</span> <span class="token attr-name">className</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>download-page-btn<span class="token punctuation">&quot;</span></span> <span class="token attr-name">to</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>Download<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>下载页面<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Link</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Link</span> <span class="token attr-name">className</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>music-page-btn<span class="token punctuation">&quot;</span></span> <span class="token attr-name">to</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>Music<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>播放器<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Link</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Link</span> <span class="token attr-name">className</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>store-page-btn<span class="token punctuation">&quot;</span></span> <span class="token attr-name">to</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>CrawlStore<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>爬虫商店<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Link</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+    <span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+        components<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+            Link<span class="token punctuation">:</span> <span class="token string">'../components/Link.svelte'</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">;</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span><span class="token punctuation">&gt;</span></span><span class="token style"><span class="token language-css">
+    <span class="token selector">.wrap</span> <span class="token punctuation">{</span>
+        <span class="token property">display</span><span class="token punctuation">:</span> flex<span class="token punctuation">;</span>
+        <span class="token property">height</span><span class="token punctuation">:</span> 100vh<span class="token punctuation">;</span>
+        <span class="token property">flex-wrap</span><span class="token punctuation">:</span> wrap<span class="token punctuation">;</span>
+        <span class="token property">background</span><span class="token punctuation">:</span> #333<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token selector">.wrap :global(a)</span> <span class="token punctuation">{</span>
+        <span class="token property">display</span><span class="token punctuation">:</span> inline-flex<span class="token punctuation">;</span>
+        <span class="token property">width</span><span class="token punctuation">:</span> 50%<span class="token punctuation">;</span>
+        <span class="token property">text-decoration</span><span class="token punctuation">:</span> none<span class="token punctuation">;</span>
+        <span class="token property">justify-content</span><span class="token punctuation">:</span> center<span class="token punctuation">;</span>
+        <span class="token property">align-items</span><span class="token punctuation">:</span> center<span class="token punctuation">;</span>
+        <span class="token property">color</span><span class="token punctuation">:</span> #fff<span class="token punctuation">;</span>
+        <span class="token property">font-size</span><span class="token punctuation">:</span> 1rem<span class="token punctuation">;</span>
+        <span class="token property">letter-spacing</span><span class="token punctuation">:</span> 5px<span class="token punctuation">;</span>
+        <span class="token property">transition</span><span class="token punctuation">:</span> all .2s<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token selector">.wrap :global(a):hover</span> <span class="token punctuation">{</span>
+        <span class="token property">background</span><span class="token punctuation">:</span> #fb584c
+    <span class="token punctuation">}</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><h2 id="修改窗口创建参数"><a href="#修改窗口创建参数" aria-hidden="true" class="header-anchor">#</a> 修改窗口创建参数</h2> <p>创建一个无边框的应用。</p> <div class="language-js extra-class"><pre class="language-js"><code>mainWindow <span class="token operator">=</span> <span class="token function">createMainWindow</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  width<span class="token punctuation">:</span> <span class="token number">400</span><span class="token punctuation">,</span>
+  height<span class="token punctuation">:</span> <span class="token number">560</span><span class="token punctuation">,</span>
+  frame<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+  transparent<span class="token punctuation">:</span> <span class="token boolean">true</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div></div> <div class="content__footer-container"><div class="content__footer"><!----> <!----></div></div></div></div></div></div></div>
+    <script src="/electron-flyer/assets/js/app.321478e2.js" defer></script><script src="/electron-flyer/assets/js/18.d91d10ee.js" defer></script>
+  </body>
+</html>
