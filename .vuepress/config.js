@@ -9,32 +9,32 @@ module.exports = {
       "章节内容": {
         children: [
           {
-            title: '初识 Electron',
+            title: '历史介绍',
             to: '1.html',
           },
           {
-            title: '了解 Electron 开发环境',
+            title: '开发环境',
             to: '2.html',
           }, {
-            title: '封装（一）',
+            title: '代码封装',
             to: '3.html',
           }, {
-            title: 'TypeScript',
+            title: '函数式',
             to: '4.html',
           }, {
-            title: '获取小说内容命令行程序版（上）',
+            title: '获取小说命令行版（上）',
             to: '5.html',
           }, {
-            title: '获取小说内容命令行程序版（中）',
+            title: '获取小说命令行版（中）',
             to: '6.html',
           }, {
-            title: '获取小说内容命令行程序版（下）',
+            title: '获取小说命令行版（下）',
             to: '7.html',
           }, {
             title: '嵌入到应用中',
             to: '8.html',
           }, {
-            title: '插件',
+            title: '插件机制',
             to: '9.html',
           }, {
             title: '文字转语音',
@@ -58,7 +58,7 @@ module.exports = {
             title: '播放功能',
             to: '16.html',
           }, {
-            title: '美化',
+            title: '美化界面',
             to: '17.html',
           }, {
             title: '数据可视化（上）',
@@ -75,7 +75,7 @@ module.exports = {
             to: '21.html',
           },
           {
-            title: '打包',
+            title: '打包应用',
             to: '22.html',
           }
         ]
